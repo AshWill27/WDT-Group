@@ -1,0 +1,169 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .contact-info,
+  .social-links {
+    margin-bottom: 10px;
+  }
+  
+  .social-icon {
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  
+  .catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .filters {
+    width: 25%;
+    margin-right: 20px;
+  }
+  
+  .product-grid {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  
+  .product-details {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .product-images {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .product-info {
+    flex: 1;
+  }
+  
+  .related-products,
+  .reviews {
+    margin-top: 20px;
+  }
+  
+ 
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  input,
+  textarea,
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
+  
+  
+  .faqs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .faq-categories {
+    margin-bottom: 20px;
+  }
+  
+  .faq-list {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+  }
+  

@@ -1,14 +1,91 @@
-<!-- Similar structure as homepage with header, navigation, and footer -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Catalog - All About the Finish</title>
+  <link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+<body>
+  <body>
+    <header>
+        <nav>
+          <div class="logo">
+            <img src="images/aatf logo.jpeg" alt="All About the Finish">
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.us.html">About Us</a></li>      
+            <li><a href="products.html">Products Catalogue</a></li>
+            <li><a href="cart.html"> Cart</a></li>
+            <li><a href="privacy_policy.html"> Privacy Policy</a></li>
+            <li><a href="pickup_delivery.html">Pick Up & Delivery</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </nav>
+      </header>
 
-<main class="catalog">
+  <main class="catalog">
     <div class="filters">
-      <!-- Product categories or filters -->
+      <ul>
+        <li><a href="#shoes">Shoes</a></li>
+        <li><a href="#bags">Bags</a></li>
+        <li><a href="#tech">Tech</a></li>
+      </ul>
     </div>
-    <div class="product-grid">
-      <!-- Product cards -->
+    <div class="product-grid" id="shoes">
+      <h2>Shoes</h2>
+      <div class="product-card">
+        <img src="images/black pumps.jpg" alt="Black Pumps">
+        <h3>Black Pumps</h3>
+        <p>$49.99</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="images/best-white-sneakers-men1.jpg" alt="Men's White Sneakers">
+        <h3>Men's White Sneakers</h3>
+        <p>$59.99</p>
+      
+      </div>
+     
     </div>
-    <div class="pagination">
-      <!-- Pagination or infinite scroll -->
+    <div class="product-grid" id="bags">
+      <h2>Bags</h2>
+      <div class="product-card">
+        <img src="images/bag.jpg" alt="Pink Bag">
+        <h3>Pink Flower Bag</h3>
+        <p>$39.99</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="images/laptop-bag.jpg" alt="Pink Laptop Bag">
+        <h3>Pink Laptop Bag</h3>
+        <p>$49.99</p>
+      </div>
+          </div>
+    <div class="product-grid" id="tech">
+      <h2>Tech Items</h2>
+      <div class="product-card">
+        <img src="images/AirPods-Pro.jpg" alt="AirPods-Pro">
+        <h3>Airpods Pro</h3>
+        <p>$199.99</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="images/phonecase.jpg" alt="Phone Case">
+        <h3>I-Phone 121 Pro Max Phone Case</h3>
+        <p>9.99</p>
+        
+      </div>
+      
     </div>
-  </main>
   
+  </main>
+
+  <footer>
+    <p>Contact us at <a href="mailto:contact@allaboutthefinish.com">contact@all.com</a></p>
+  </footer>
+</body>
+</html>

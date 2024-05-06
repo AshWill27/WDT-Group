@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Package Delivery & Pickup Options</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+   </head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <img src="images/aatf logo.jpeg" alt="All About the Finish">
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.us.html">About Us</a></li>      
+            <li><a href="products.html">Products Catalogue</a></li>
+            <li><a href="cart.html"> Cart</a></li>
+            <li><a href="privacy_policy.html"> Privacy Policy</a></li>
+            <li><a href="pickup_delivery.html">Pick Up & Delivery</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </nav>
+      </header>
+    <header>
+        <h1>Package Delivery & Pickup Options</h1>
+    </header>
+    <main>
+        <strong>
+            <h2>Select Your Intended Destination for Delivery Or Pickup</h2>
+        </strong>
+        <h4>At All About the Finish, our foremost goal is to provide you, our valued customer, with the utmost convenience and satisfaction by providing the perfect package delivery or pickup option ensuring a seamless experience, we're here to make your journey smooth sailing. Thank you for choosing us for your delivery needs! </h4>
+        <p>
+            <label for="delivery-options">Delivery Options Type:</label>
+             <select id="delivery-options" name="delivery-options" required>
+                 <option value="">Select Package Delivery Option</option>
+                 <option value="store-pickup">Store Pickup</option>
+                 <option value="home-delivery">Home Delivery</option>
+                 <option value="workplace-delivery">Workeplace Delivery</option>
+                 <option value="knutsford-delivery">Knutsford Express Delivery</option>
+               
+        </p>
+    <b>
+
+    </b> 
+        <section>
+            
+
+
+        </section>
+        <section>
+            <p>
+
+            <div class="container">
+                <form action="/submit_delivery_pickup" method="post">
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name" placeholder="Your name" required>
+ 
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" placeholder="Your email" required>
+ 
+             <label for="phone">Phone:</label>
+             <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+
+            </p>
+        <section>
+            <label for="address">Address:</label>
+             <input type="text" id="address" name="address" placeholder="Delivery/pickup address" >
+        </section>
+
+    
+
+
+        <section>
+            <label for="package-type">Package Type:</label>
+             <select id="package-type" name="package-type" required>
+                 <option value="">Select package type</option>
+                 <option value="document">Document</option>
+                 <option value="small-package">Small Package</option>
+                 <option value="large-package">Large Package</option>
+             </select>
+ 
+             <label for="additional-info">Additional Information:</label>
+             <textarea id="additional-info" name="additional-info" placeholder="Any special instructions or comments"></textarea>
+ 
+             <input type="submit" value="Submit">
+        </section>
+               
+             
+         </form>
+     </div>
+        </section>
+    </main> 
+    <footer>
+        <p>Contact us at <a href="mailto:contact@allaboutthefinish.com">contact@allaboutthefinish.com</a></p>
+    </footer>   
+</body>
+</html>
